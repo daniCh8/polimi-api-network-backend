@@ -1,4 +1,4 @@
-# [Algorithms and Data Structures](https://www4.ceda.polimi.it/manifesti/manifesti/controller/ManifestoPublic.do?EVN_DETTAGLIO_RIGA_MANIFESTO=evento&aa=2018&k_cf=225&k_corso_la=358&k_indir=IT1&codDescr=086067&lang=IT&semestre=2&anno_corso=2&idItemOfferta=139718&idRiga=234137) 2019, Course Project
+# [Algorithms and Data Structures](https://www4.ceda.polimi.it/manifesti/manifesti/controller/ManifestoPublic.do?EVN_DETTAGLIO_RIGA_MANIFESTO=EVENTO&c_insegn=086067&aa=2018&k_cf=225&k_corso_la=358&ac_ins=0&k_indir=IT1&lang=EN&tipoCorso=ALL_TIPO_CORSO&semestre=2&idItemOfferta=139718&idRiga=234137&codDescr=086067) 2019, Course Project
 
 ## Project Description
 The goal of this project was to apply the knowledge acquired through the course to build the backend of a (not too advanced) social network in C. Such backend should be as efficient as possible, both in terms of memory and speed.
