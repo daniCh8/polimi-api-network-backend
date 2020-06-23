@@ -3,7 +3,7 @@
 ## Project Description
 The goal of this project was to apply the knowledge acquired through the course to build the backend of a (not too advanced) social network in C. Such backend should be as efficient as possible, both in terms of memory and speed.
 
-More specifically, the aim was to code a mechanism able to monitor dynamic relationship between different entities. The social network comparison comes handy: new entities can register to the program, but also old entities may delete their account. Entities can also start new _relationships_ between them, or end old ones. Such relationships may not be symmetric (X may be friend of Y, but not viceversa). Also, such relationships are not static: any new type of relationship between two entities can be added on the fly.
+More specifically, the aim was to code a mechanism able to monitor dynamic relationships between different entities. The social network comparison comes handy: new entities can register to the program, but also old entities may delete their account. Entities can also start new _relationships_ between them, or end old ones. Such relationships may not be symmetric (X may be friend of Y, but not viceversa). Also, such relationships are not static: any new type of relationship between two entities can be added on the fly.
 
 ## Possible Actions
 Here is a table with all the possible inputs of the program, together with a short description of each one.
