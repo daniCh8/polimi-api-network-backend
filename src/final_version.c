@@ -76,30 +76,25 @@ int main() {
     
         if(strcmp(command, "addent") == 0) {
             char* idEnt = dynamicWordify(&line);
-            //printf("\naddent %s\n", idEnt);
             addent(&observedEntities, idEnt, &numOfObservedEntities);
 		}
 		else if(strcmp(command, "delent") == 0) {
 			char* idEnt = dynamicWordify(&line);
-            //printf("\ndelent %s\n", idEnt);
             delent(idEnt, &observedEntities, &relationships, &numOfObservedEntities, &numOfObservedRelationships);
 		}
 		else if(strcmp(command, "addrel") == 0) {
 			char* idOrig = dynamicWordify(&line);
 			char* idDest = dynamicWordify(&line);
 			char* idRel = dynamicWordify(&line);
-            //printf("\naddrel %s %s %s\n", idOrig, idDest, idRel);
             addrel(idOrig, idDest, idRel, &relationships, &numOfObservedRelationships, &observedEntities, &numOfObservedEntities);
 		}
 		else if(strcmp(command, "delrel") == 0) {
 			char* idOrig = dynamicWordify(&line);
 			char* idDest = dynamicWordify(&line);
 			char* idRel = dynamicWordify(&line);
-            //printf("\ndelrel %s %s %s\n", idOrig, idDest, idRel);
             delrel(idOrig, idDest, idRel, &relationships, &numOfObservedRelationships, &observedEntities, &numOfObservedEntities);
 		}
 		else if(strcmp(command, "report") == 0) {
-            //printf("\nreport\n");
             report(relationships, numOfObservedRelationships);
 		}
 		//added for debugging purposes
@@ -115,7 +110,7 @@ int main() {
 		else if(strcmp(command, "end") == 0) return 0;
 
 		free(box);
-        free(command); //may crash
+        free(command);
 	}
 }
 
@@ -164,7 +159,6 @@ char* dynamicScan() {
 
 /**
  * Deletes an entity from the database.
- * [fixed]
  */
 void delent(char* idEnt, char*** entitiesPointer, Relationship** relationships, int* entitiesNumber, int* relationshipsNumber) {
     char* toFree = deleteInOrderInAStringArray(0, (*entitiesNumber)-1, idEnt, entitiesPointer, entitiesNumber);
@@ -341,7 +335,6 @@ int insertInAStringArray(char*** arrayPointer, char* idEnt, int* length) {
 
 /**
  * Adds a relationship if it exists.
- * [fixed]
  */
 void addrel(char* from, char* to, char* idRel, Relationship** relationships, int* relationshipsCounter, char*** entitiesPointer, int* entitiesNumber) {
     if((*entitiesPointer) == NULL) {
@@ -440,7 +433,6 @@ int insertInOrderInAStringArrayHelper(int first, int last, char* toInsert, char*
  * Deletes a string in an ordered string array;
  * NB: length is the size of the array + 1 (human size);
  * @return 1 if the deletion ended fine; -1 otherwise;
- * [fixed]
  */
 char* deleteInOrderInAStringArray(int first, int last, char* toDelete, char*** arrayPointer, int* length) {
 	if(last < first) return "-1";
@@ -485,7 +477,6 @@ int findPositionInAStringArray(int first, int last, char* toFind, char** array) 
 /**
  * Adds a couple in an ordered array of couples.
  * @return the number of to Relationships for that toEntity; -1 otherwise (couple already exists).
- * [fixed]
  */
 int insertCoupleInOrder(Couple** arrayTo, char* from, char* to, int* length) {
     
@@ -518,7 +509,6 @@ int insertCoupleInOrder(Couple** arrayTo, char* from, char* to, int* length) {
  * Returns the position where a Couple should be inserted in a [to] ordered Couple array.
  * NB: size is the cpu size of the array.
  * @return -1 if the couple already exists, the position looked for otherwise.
- * [fixed]
  */
 int positionToInsertFinderTo(Couple* array, char* to, int first, int last, int size) {
     int i = (first+last)/2;
@@ -537,7 +527,6 @@ int positionToInsertFinderTo(Couple* array, char* to, int first, int last, int s
 /**
  * Deletes a couple in an ordered array of couples.
  * @return the (number of relationships remaining)+1 if the deletion went fine; -1 otherwise (couple doesn't exists).
- * [fixed]
  */
 int deleteCoupleInOrder(Couple** arrayTo, char* from, char* to, int* numOfRelationships) {
     if((*numOfRelationships) == 0) {
@@ -576,7 +565,6 @@ int deleteCoupleInOrder(Couple** arrayTo, char* from, char* to, int* numOfRelati
  * Returns the position where a Couple is stored in a [to] ordered Couple array.
  * NB: size is the cpu size of the array.
  * @return -1 if the couple don't exists, the position looked for otherwise.
- * [fixed]
  */
 int positionToDeleteFinderTo(Couple* array, char* to, int first, int last, int size) {
     if(first > last) return -1;
@@ -594,7 +582,6 @@ int positionToDeleteFinderTo(Couple* array, char* to, int first, int last, int s
 /**
  * Inserts a relationship in the relationships.
  * @return 1 if the insertion went fine; -1 otherwise.
- * [fixed]
  */
 int insertRelationshipInOrder(char* from, char* to, char* idRel, Relationship** relationships, int* relationshipsCounter) {
     //Caso in cui non ci siano relazioni.
@@ -671,7 +658,6 @@ int insertRelationshipInOrder(char* from, char* to, char* idRel, Relationship** 
 /**
  * Finds the position of a relationship; returns (-1) if the relationship doesn't exists.
  * @param size it's the cpu size of the array.
- * [fixed]
  */
 int positionRelationshipChecker(Relationship* array, char* idRel, int first, int last, int size) {
     if(first > last) return -1;
@@ -687,7 +673,6 @@ int positionRelationshipChecker(Relationship* array, char* idRel, int first, int
 /**
  * Finds the position where to add the relationship.
  * @param size it's the cpu size of the array.
- * [fixed]
  */
 int positionRelationshipFounder(Relationship* array, char* idRel, int first, int last, int size) {
     int i = (first+last)/2;
@@ -703,7 +688,6 @@ int positionRelationshipFounder(Relationship* array, char* idRel, int first, int
 /**
  * Deletes a relationship in the relationships.
  * @return 1 if the deletion went fine; -1 otherwise.
- * [fixed]
  */
 int deleteRelationshipInOrder(char* from, char* to, char* idRel, Relationship** relationships, int* relationshipsCounter) {
     if((*relationshipsCounter) == 0) return -1; 
@@ -716,7 +700,6 @@ int deleteRelationshipInOrder(char* from, char* to, char* idRel, Relationship** 
  * Deletes a relationship in a precise position.
  * @return 1 if the deletion went fine; -1 otherwise.
  * idRel is freed inhere.
- * [fixed]
  */
 int deleteRelationshipInPosition(int position, char* from, char* to, Relationship** relationships, int* relationshipsCounter) {
     int delFromCouples = deleteCoupleInOrder(&((*relationships)[position].to), from, to, &((*relationships)[position].numTot));
