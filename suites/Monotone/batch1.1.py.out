@@ -1,0 +1,11 @@
+none
+"loves" "Jesse_Baley" 1;
+"is_killed_by" "Jothan_Leebig" 1; "loves" "Elijah_Baley" 2;
+"is_killed_by" "Elijah_Baley" "Jothan_Leebig" "Kelden_Amadiro" "R_Giskard_Reventlov" 1; "loves" "Elijah_Baley" 2;
+"is_killed_by" "Kelden_Amadiro" 2; "loves" "Elijah_Baley" "Gladia_Delmarre" 2;
+"is_killed_by" "Jothan_Leebig" "Kelden_Amadiro" 2; "loves" "Elijah_Baley" 3;
+"is_killed_by" "Jothan_Leebig" "Kelden_Amadiro" 2; "loves" "Elijah_Baley" "Gladia_Delmarre" 3;
+"is_killed_by" "Elijah_Baley" "Jothan_Leebig" "Kelden_Amadiro" 2; "loves" "Elijah_Baley" "Gladia_Delmarre" 3;
+"is_killed_by" "Jothan_Leebig" 3; "loves" "Gladia_Delmarre" 6;
+"is_killed_by" "Jothan_Leebig" 3; "loves" "Gladia_Delmarre" 6;
+"is_killed_by" "Jothan_Leebig" "Kelden_Amadiro" 3; "loves" "Gladia_Delmarre" 6;

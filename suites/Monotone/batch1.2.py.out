@@ -1,0 +1,31 @@
+none
+none
+none
+none
+none
+none
+none
+"follower" "Azan" "Jonathan_Archer" 1;
+"follower" "Airiam" "Azan" "Jonathan_Archer" 1;
+"follower" "Ayala" 2;
+"follower" "Airiam" "Ayala" "Jonathan_Archer" 2;
+"follower" "Airiam" "Ayala" "Jonathan_Archer" 2;
+"follower" "Airiam" "Ayala" "Azan" "Jonathan_Archer" 2;
+"follower" "Airiam" 4;
+"follower" "Airiam" 5;
+"follower" "Airiam" 6;
+"follower" "Airiam" 14;
+"follower" "Airiam" 14;
+"follower" "Airiam" 14;
+"admirer" "Jonathan_Archer" 1; "follower" "Airiam" 14;
+"admirer" "Airiam" "Ayala" 2; "follower" "Airiam" 14;
+"admirer" "Airiam" "Ayala" "Jonathan_Archer" 2; "follower" "Airiam" 14;
+"admirer" "Airiam" "Ayala" 3; "follower" "Airiam" 14;
+"admirer" "Airiam" 4; "follower" "Airiam" 14;
+"admirer" "Airiam" 4; "follower" "Airiam" 14;
+"admirer" "Airiam" 4; "follower" "Airiam" 14;
+"admirer" "Airiam" 6; "follower" "Airiam" 14;
+"admirer" "Airiam" 11; "follower" "Airiam" 14;
+"admirer" "Airiam" 13; "follower" "Airiam" 14;
+"admirer" "Airiam" 15; "follower" "Airiam" 14;
+"admirer" "Airiam" 19; "follower" "Airiam" 14;

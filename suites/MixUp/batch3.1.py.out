@@ -1,0 +1,24 @@
+none
+"helps" "Eowyn" 1;
+"helps" "Eowyn" "Theoden" 1;
+"helps" "Eowyn" "Theoden" 1;
+"helps" "Eowyn" "Theoden" "Treebeard" 1;
+"helps" "Eowyn" "Samwise_Gamgee" "Theoden" "Treebeard" 1;
+"helps" "Eowyn" "Samwise_Gamgee" "Theoden" "Treebeard" 1;
+"helps" "Eomer" "Eowyn" "Samwise_Gamgee" "Theoden" 1;
+"helps" "Bilbo_Baggins" 2;
+"helps" "Bilbo_Baggins" 2;
+"helps" "Bilbo_Baggins" "Eomer" "Eowyn" "Legolas" 2;
+"helps" "Bilbo_Baggins" 3;
+"helps" "Bilbo_Baggins" 3;
+"helps" "Peregrin_Took" 3;
+"helps" "Peregrin_Took" 3;
+"helps" "Arwen" "Bilbo_Baggins" "Peregrin_Took" 3;
+"helps" "Arwen" "Bilbo_Baggins" "Peregrin_Took" 3;
+"helps" "Arwen" "Bilbo_Baggins" "Peregrin_Took" 3;
+"helps" "Bilbo_Baggins" "Peregrin_Took" 3;
+"helps" "Bilbo_Baggins" 3;
+"helps" "Bilbo_Baggins" 3;
+"helps" "Bilbo_Baggins" 4;
+"helps" "Bilbo_Baggins" 4;
+"helps" "Bilbo_Baggins" "Legolas" 4;

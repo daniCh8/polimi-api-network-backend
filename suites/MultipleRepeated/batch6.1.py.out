@@ -1,0 +1,18 @@
+"admires" "Zaphod_Beeblebrox" 1;
+"admires" "Slartibartfast" 2;
+"admires" "Slartibartfast" 3;
+"admires" "Slartibartfast" 5;
+"admires" "Slartibartfast" "Zaphod_Beeblebrox" 5;
+"admires" "Slartibartfast" 4;
+"admires" "Slartibartfast" "Zaphod_Beeblebrox" 3; "knows" "Roosta" "Slartibartfast" 1;
+"admires" "Slartibartfast" "Zaphod_Beeblebrox" 3; "knows" "Prak" "Roosta" "Slartibartfast" "The_Lajestic_Vantrashell_of_Lob" "The_Ruler_of_the_Universe" 1;
+"admires" "Slartibartfast" "Zaphod_Beeblebrox" 3; "knows" "Slartibartfast" 2;
+"admires" "Slartibartfast" "Zaphod_Beeblebrox" 3; "knows" "Slartibartfast" "The_Lajestic_Vantrashell_of_Lob" "The_Ruler_of_the_Universe" 2;
+"admires" "Slartibartfast" "Zaphod_Beeblebrox" 3; "knows" "Prak" "Slartibartfast" "The_Lajestic_Vantrashell_of_Lob" "The_Ruler_of_the_Universe" 2;
+"admires" "Slartibartfast" "Zaphod_Beeblebrox" 3; "knows" "Hillman_Hunter" "Prak" "Slartibartfast" "The_Lajestic_Vantrashell_of_Lob" "The_Ruler_of_the_Universe" 2;
+"admires" "Slartibartfast" "Zaphod_Beeblebrox" 3; "knows" "Hillman_Hunter" "Prak" "The_Lajestic_Vantrashell_of_Lob" "The_Ruler_of_the_Universe" 3;
+"admires" "Trillian" "Zaphod_Beeblebrox" 2; "knows" "Hillman_Hunter" "Prak" "The_Lajestic_Vantrashell_of_Lob" 3;
+"admires" "Trillian" "Zaphod_Beeblebrox" 2; "knows" "Hillman_Hunter" "Prak" 4;
+"admires" "Zaphod_Beeblebrox" 3; "knows" "Hillman_Hunter" 3;
+"admires" "Arthur_Dent" "Marvin" "Trillian" 1; "knows" "Hillman_Hunter" 3;
+"admires" "Arthur_Dent" "Marvin" "Trillian" 1; "knows" "Hillman_Hunter" 3;

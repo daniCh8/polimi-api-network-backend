@@ -1,0 +1,72 @@
+addent "Arthur_Dent"
+addent "Zaphod_Beeblebrox"
+addent "Marvin"
+addent "Ford_Prefect"
+addent "Slartibartfast"
+addent "Prostetnic_Vogon_Jeltz"
+addent "Trillian"
+addrel "Arthur_Dent" "Trillian" "spies"
+report
+addrel "Arthur_Dent" "Slartibartfast" "spies"
+addrel "Zaphod_Beeblebrox" "Slartibartfast" "spies"
+report
+addrel "Zaphod_Beeblebrox" "Trillian" "spies"
+report
+addrel "Marvin" "Trillian" "spies"
+report
+addrel "Marvin" "Marvin" "spies"
+report
+addrel "Marvin" "Slartibartfast" "spies"
+addrel "Ford_Prefect" "Trillian" "spies"
+addrel "Ford_Prefect" "Marvin" "spies"
+addrel "Slartibartfast" "Trillian" "spies"
+report
+addrel "Slartibartfast" "Marvin" "spies"
+delrel "Arthur_Dent" "Trillian" "spies"
+report
+delrel "Zaphod_Beeblebrox" "Trillian" "spies"
+delrel "Arthur_Dent" "Slartibartfast" "spies"
+addent "Arthur_Dent"
+addent "Zaphod_Beeblebrox"
+addent "Marvin"
+addent "Ford_Prefect"
+addent "Slartibartfast"
+addent "Roosta"
+report
+addent "East_River_Creature"
+addent "Lady_Cynthia_Fitzmelton"
+report
+addent "Dish_of_the_Day"
+report
+addent "Lig_Lury_Jr"
+report
+addrel "Arthur_Dent" "Lig_Lury_Jr" "destroys_home_planet"
+report
+addrel "Zaphod_Beeblebrox" "Arthur_Dent" "destroys_home_planet"
+addrel "Marvin" "Lig_Lury_Jr" "destroys_home_planet"
+addrel "Marvin" "Zaphod_Beeblebrox" "destroys_home_planet"
+report
+addrel "Marvin" "Arthur_Dent" "destroys_home_planet"
+addrel "Ford_Prefect" "Arthur_Dent" "destroys_home_planet"
+addrel "Ford_Prefect" "Zaphod_Beeblebrox" "destroys_home_planet"
+addrel "Slartibartfast" "Zaphod_Beeblebrox" "destroys_home_planet"
+report
+addrel "Slartibartfast" "Arthur_Dent" "destroys_home_planet"
+addrel "Roosta" "Arthur_Dent" "destroys_home_planet"
+addrel "Roosta" "Zaphod_Beeblebrox" "destroys_home_planet"
+addrel "East_River_Creature" "Arthur_Dent" "destroys_home_planet"
+report
+addrel "Lady_Cynthia_Fitzmelton" "Arthur_Dent" "destroys_home_planet"
+report
+addrel "Lady_Cynthia_Fitzmelton" "Slartibartfast" "destroys_home_planet"
+addrel "Dish_of_the_Day" "Ford_Prefect" "destroys_home_planet"
+addrel "Dish_of_the_Day" "Arthur_Dent" "destroys_home_planet"
+delent "Slartibartfast"
+report
+delrel "Arthur_Dent" "Lig_Lury_Jr" "destroys_home_planet"
+delent "Zaphod_Beeblebrox"
+delent "Arthur_Dent"
+report
+delrel "Marvin" "Lig_Lury_Jr" "destroys_home_planet"
+report
+end
