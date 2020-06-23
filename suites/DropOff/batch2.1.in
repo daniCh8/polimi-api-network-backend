@@ -1,0 +1,236 @@
+addent "The_Doctor"
+addent "Amelia_Pond"
+addent "Rory_Williams"
+addent "River_Song"
+addent "Clara_Oswald"
+addent "Nardole"
+addent "Bill_Potts"
+addent "Rose_Tyler"
+addent "Mickey_Smith"
+addent "Donna_Noble"
+addent "Veil"
+addent "Janus"
+addent "Sandman"
+addent "Grunt"
+addent "Colony_Sarff"
+addent "Kantrofarri"
+addent "Boneless"
+addent "Foretold"
+addent "The_Teller"
+addent "Mister_Sweet"
+addent "The_Vigil"
+addent "Akhaten"
+addent "Queen_of_Years"
+addent "Kahler"
+report
+addent "Teselecta"
+addent "Krafayis"
+addent "Weeping_Angel"
+addrel "Veil" "River_Song" "fights"
+addrel "Veil" "Mickey_Smith" "fights"
+report
+addrel "Janus" "The_Doctor" "fights"
+addrel "Janus" "Clara_Oswald" "fights"
+addrel "Janus" "Nardole" "fights"
+addrel "Sandman" "Clara_Oswald" "fights"
+report
+addrel "Sandman" "Amelia_Pond" "fights"
+addrel "Sandman" "The_Doctor" "fights"
+addrel "Grunt" "Clara_Oswald" "fights"
+addrel "Grunt" "Mickey_Smith" "fights"
+report
+addrel "Grunt" "Nardole" "fights"
+report
+addrel "Grunt" "Amelia_Pond" "fights"
+addrel "Grunt" "The_Doctor" "fights"
+addrel "Colony_Sarff" "River_Song" "fights"
+addrel "Colony_Sarff" "Rose_Tyler" "fights"
+addrel "Colony_Sarff" "Nardole" "fights"
+addrel "Colony_Sarff" "Amelia_Pond" "fights"
+addrel "Kantrofarri" "Bill_Potts" "fights"
+report
+addrel "Kantrofarri" "Amelia_Pond" "fights"
+addrel "Kantrofarri" "River_Song" "fights"
+addrel "Kantrofarri" "Rose_Tyler" "fights"
+report
+addrel "Foretold" "River_Song" "fights"
+addrel "Foretold" "Bill_Potts" "fights"
+addrel "Foretold" "The_Doctor" "fights"
+addrel "Foretold" "Clara_Oswald" "fights"
+report
+addrel "The_Teller" "Donna_Noble" "fights"
+addrel "The_Teller" "River_Song" "fights"
+addrel "The_Teller" "Bill_Potts" "fights"
+report
+addrel "The_Teller" "Rose_Tyler" "fights"
+addrel "The_Teller" "The_Doctor" "fights"
+addrel "Mister_Sweet" "Amelia_Pond" "fights"
+addrel "The_Vigil" "Rory_Williams" "fights"
+addrel "The_Vigil" "Clara_Oswald" "fights"
+report
+addrel "Akhaten" "Nardole" "fights"
+addrel "Teselecta" "Amelia_Pond" "fights"
+addrel "Teselecta" "River_Song" "fights"
+addrel "Teselecta" "The_Doctor" "fights"
+addrel "Krafayis" "River_Song" "fights"
+report
+addrel "Krafayis" "Nardole" "fights"
+addrel "Weeping_Angel" "Bill_Potts" "fights"
+addrel "Weeping_Angel" "The_Doctor" "fights"
+report
+addrel "Weeping_Angel" "Clara_Oswald" "fights"
+addrel "The_Doctor" "Kahler" "kills"
+addrel "The_Doctor" "Queen_of_Years" "kills"
+addrel "The_Doctor" "Krafayis" "kills"
+addrel "The_Doctor" "Weeping_Angel" "kills"
+addrel "Amelia_Pond" "Grunt" "kills"
+addrel "Amelia_Pond" "Colony_Sarff" "kills"
+addrel "Amelia_Pond" "Queen_of_Years" "kills"
+addrel "Amelia_Pond" "Janus" "kills"
+addrel "Amelia_Pond" "Mister_Sweet" "kills"
+report
+addrel "Amelia_Pond" "Boneless" "kills"
+report
+addrel "Amelia_Pond" "Akhaten" "kills"
+addrel "Rory_Williams" "Kahler" "kills"
+report
+addrel "Rory_Williams" "Kantrofarri" "kills"
+addrel "Rory_Williams" "Weeping_Angel" "kills"
+addrel "Rory_Williams" "Grunt" "kills"
+addrel "Rory_Williams" "Veil" "kills"
+addrel "Rory_Williams" "The_Vigil" "kills"
+addrel "Rory_Williams" "Akhaten" "kills"
+addrel "River_Song" "Mister_Sweet" "kills"
+addrel "River_Song" "Grunt" "kills"
+report
+addrel "River_Song" "The_Teller" "kills"
+report
+addrel "River_Song" "Akhaten" "kills"
+report
+addrel "River_Song" "Kantrofarri" "kills"
+addrel "Clara_Oswald" "Teselecta" "kills"
+report
+addrel "Clara_Oswald" "Veil" "kills"
+addrel "Clara_Oswald" "The_Vigil" "kills"
+report
+addrel "Clara_Oswald" "The_Teller" "kills"
+addrel "Clara_Oswald" "Foretold" "kills"
+report
+addrel "Clara_Oswald" "Janus" "kills"
+report
+addrel "Clara_Oswald" "Queen_of_Years" "kills"
+addrel "Bill_Potts" "Boneless" "kills"
+addrel "Bill_Potts" "Mister_Sweet" "kills"
+addrel "Rose_Tyler" "Kantrofarri" "kills"
+addrel "Rose_Tyler" "Foretold" "kills"
+addrel "Mickey_Smith" "Teselecta" "kills"
+addrel "Mickey_Smith" "The_Vigil" "kills"
+addrel "Mickey_Smith" "Veil" "kills"
+addrel "Mickey_Smith" "Kantrofarri" "kills"
+addrel "Donna_Noble" "Mister_Sweet" "kills"
+report
+addrel "Donna_Noble" "Teselecta" "kills"
+addrel "Donna_Noble" "Krafayis" "kills"
+addrel "Donna_Noble" "Queen_of_Years" "kills"
+delent "Krafayis"
+report
+delrel "Sandman" "Amelia_Pond" "fights"
+delrel "Janus" "Clara_Oswald" "fights"
+report
+delent "Boneless"
+delrel "River_Song" "Grunt" "kills"
+report
+delent "Amelia_Pond"
+delent "Foretold"
+report
+delent "Akhaten"
+delrel "Rory_Williams" "Veil" "kills"
+report
+delrel "Mickey_Smith" "Veil" "kills"
+report
+delrel "Sandman" "The_Doctor" "fights"
+delent "Donna_Noble"
+delrel "River_Song" "Akhaten" "kills"
+delrel "Janus" "Nardole" "fights"
+report
+delent "Janus"
+report
+delrel "Bill_Potts" "Boneless" "kills"
+delent "Queen_of_Years"
+delrel "Amelia_Pond" "Akhaten" "kills"
+delent "Nardole"
+delrel "The_Vigil" "Rory_Williams" "fights"
+report
+delent "Donna_Noble"
+report
+delent "Mickey_Smith"
+report
+delent "Teselecta"
+delent "Boneless"
+report
+delrel "Clara_Oswald" "Janus" "kills"
+delrel "Grunt" "Amelia_Pond" "fights"
+report
+delrel "Foretold" "The_Doctor" "fights"
+delrel "Amelia_Pond" "Queen_of_Years" "kills"
+report
+delent "The_Doctor"
+delent "The_Vigil"
+delrel "Donna_Noble" "Teselecta" "kills"
+report
+delent "The_Teller"
+delent "The_Doctor"
+delrel "Rory_Williams" "Weeping_Angel" "kills"
+report
+delrel "Krafayis" "River_Song" "fights"
+delent "Rose_Tyler"
+report
+delrel "Akhaten" "Nardole" "fights"
+report
+delrel "Rose_Tyler" "Kantrofarri" "kills"
+delrel "Kantrofarri" "Rose_Tyler" "fights"
+report
+delrel "Krafayis" "Nardole" "fights"
+delrel "Mister_Sweet" "Amelia_Pond" "fights"
+delrel "The_Teller" "Rose_Tyler" "fights"
+report
+delrel "The_Vigil" "Clara_Oswald" "fights"
+delrel "Teselecta" "Amelia_Pond" "fights"
+delent "Weeping_Angel"
+delent "River_Song"
+delrel "Rory_Williams" "Kahler" "kills"
+report
+delrel "Weeping_Angel" "Clara_Oswald" "fights"
+delent "Queen_of_Years"
+report
+delent "Sandman"
+delrel "Grunt" "Mickey_Smith" "fights"
+delent "Grunt"
+report
+delrel "Amelia_Pond" "Janus" "kills"
+delent "Nardole"
+report
+delent "Mister_Sweet"
+delent "Bill_Potts"
+delrel "River_Song" "Kantrofarri" "kills"
+delent "Foretold"
+report
+delent "Mickey_Smith"
+report
+delrel "Mickey_Smith" "Teselecta" "kills"
+report
+delrel "Kantrofarri" "Bill_Potts" "fights"
+delrel "Teselecta" "River_Song" "fights"
+delent "Rory_Williams"
+report
+delent "Colony_Sarff"
+report
+delrel "Colony_Sarff" "Nardole" "fights"
+delent "Janus"
+report
+delent "Mister_Sweet"
+delrel "Rory_Williams" "Kantrofarri" "kills"
+report
+delent "Bill_Potts"
+report
+end

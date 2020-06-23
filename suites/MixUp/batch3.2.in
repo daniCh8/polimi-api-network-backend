@@ -1,0 +1,171 @@
+addrel "Boothby" "Ayala" "knows"
+report
+delrel "Christine_Chapel" "Airiam" "knows"
+report
+addent "J_M_Colt"
+addrel "Wesley_Crusher" "Airiam" "knows"
+addrel "Jonathan_Archer" "Ayala" "knows"
+addent "BEtor"
+addent "Julian_Bashir"
+addrel "Ezri_Dax" "Airiam" "knows"
+addrel "Jal_Culluh" "Ayala" "knows"
+addrel "Katrina_Cornwell" "Ayala" "knows"
+addent "Kimara_Cretak"
+addent "Reginald_Barclay"
+delent "Ezri_Dax"
+report
+addrel "Airiam" "Jonathan_Archer" "knows"
+addent "Pavel_Chekov"
+report
+delrel "Ayala" "Jonathan_Archer" "knows"
+report
+addrel "RA_Bryce" "Ayala" "knows"
+delrel "Bareil_Antos" "Ayala" "knows"
+addrel "Ayala" "Airiam" "knows"
+addrel "Ayala" "Airiam" "knows"
+addrel "The_Borg_Queen" "Jonathan_Archer" "knows"
+report
+addent "The_Borg_Queen"
+addrel "Bareil_Antos" "Ayala" "knows"
+delent "Jal_Culluh"
+addrel "Chell" "Jonathan_Archer" "knows"
+addrel "Jonathan_Archer" "Jonathan_Archer" "knows"
+addent "Joseph_Carey"
+report
+delrel "Airiam" "Airiam" "knows"
+report
+addent "Katrina_Cornwell"
+addrel "Christine_Chapel" "Airiam" "knows"
+addent "Ayala"
+delrel "Ayala" "Airiam" "knows"
+delrel "RA_Bryce" "Ayala" "knows"
+addent "Jonathan_Archer"
+report
+addent "Bareil_Antos"
+addent "Elizabeth_Cutler"
+report
+addrel "Jonathan_Archer" "Airiam" "knows"
+delrel "RA_Bryce" "Jonathan_Archer" "knows"
+delrel "Reginald_Barclay" "Jonathan_Archer" "knows"
+addrel "Airiam" "Ayala" "knows"
+addent "Christine_Chapel"
+addrel "Hugh_Culber" "Ayala" "knows"
+delrel "Airiam" "Ayala" "knows"
+addrel "Beverly_Crusher" "Jonathan_Archer" "knows"
+addrel "Airiam" "Jonathan_Archer" "knows"
+addent "Ezri_Dax"
+report
+delrel "Kimara_Cretak" "Jonathan_Archer" "knows"
+delent "Kimara_Cretak"
+report
+delrel "Elizabeth_Cutler" "Pavel_Chekov" "knows"
+addrel "The_Borg_Queen" "Ayala" "knows"
+addrel "Reginald_Barclay" "Jonathan_Archer" "knows"
+report
+addent "Airiam"
+report
+addrel "Airiam" "Jonathan_Archer" "knows"
+report
+delent "Wesley_Crusher"
+addrel "Airiam" "Jonathan_Archer" "knows"
+addrel "Pavel_Chekov" "Jonathan_Archer" "knows"
+report
+addrel "J_M_Colt" "Ayala" "knows"
+delrel "Katrina_Cornwell" "Jonathan_Archer" "knows"
+addrel "Elizabeth_Cutler" "Pavel_Chekov" "knows"
+addrel "Ayala" "Jonathan_Archer" "knows"
+addent "RA_Bryce"
+addrel "Joseph_Carey" "Jonathan_Archer" "knows"
+addent "Chakotay"
+delrel "Wesley_Crusher" "Airiam" "knows"
+report
+delent "Joseph_Carey"
+addrel "Julian_Bashir" "Jonathan_Archer" "knows"
+addrel "Jonathan_Archer" "Ayala" "knows"
+delrel "BEtor" "Ayala" "knows"
+addrel "Airiam" "Airiam" "knows"
+addent "Data"
+addent "Jal_Culluh"
+addrel "Chell" "Ayala" "knows"
+delent "Michael_Burnham"
+addent "Azan"
+delrel "Azan" "Ayala" "knows"
+delent "Damar"
+delrel "Reginald_Barclay" "Jonathan_Archer" "knows"
+addent "Daniels"
+report
+addent "Chell"
+addrel "BEtor" "Ayala" "knows"
+addrel "Reginald_Barclay" "Jonathan_Archer" "knows"
+addrel "Michael_Burnham" "Brunt" "knows"
+delrel "Boothby" "Airiam" "knows"
+addrel "Reginald_Barclay" "Jonathan_Archer" "knows"
+report
+addrel "Pavel_Chekov" "Jonathan_Archer" "knows"
+addrel "Airiam" "Airiam" "knows"
+addrel "Jonathan_Archer" "Jonathan_Archer" "knows"
+report
+addrel "Julian_Bashir" "Airiam" "knows"
+addrel "Bareil_Antos" "Jonathan_Archer" "knows"
+addrel "RA_Bryce" "Jonathan_Archer" "knows"
+delrel "Reginald_Barclay" "Jonathan_Archer" "knows"
+delent "Airiam"
+delrel "Jonathan_Archer" "Ayala" "knows"
+delrel "Chell" "Ayala" "knows"
+addrel "Damar" "Brunt" "knows"
+addrel "Jonathan_Archer" "Michael_Burnham" "knows"
+addrel "Azan" "Ayala" "knows"
+addrel "Boothby" "Airiam" "knows"
+report
+delrel "Jonathan_Archer" "Jonathan_Archer" "knows"
+report
+delrel "Beverly_Crusher" "Jonathan_Archer" "knows"
+addrel "Wesley_Crusher" "Jonathan_Archer" "knows"
+addrel "Phillip_Boyce" "Airiam" "knows"
+report
+delent "Ayala"
+delrel "Chakotay" "Airiam" "knows"
+addrel "Boothby" "Brunt" "knows"
+report
+addrel "Jonathan_Archer" "Ayala" "knows"
+addrel "Jal_Culluh" "Leonardo_da_Vinci" "knows"
+addent "Boothby"
+delrel "Airiam" "Jonathan_Archer" "knows"
+addent "Damar"
+addrel "Boothby" "Airiam" "knows"
+addent "Wesley_Crusher"
+addrel "Katrina_Cornwell" "Jonathan_Archer" "knows"
+addrel "Daniels" "Brunt" "knows"
+addrel "Reginald_Barclay" "Jonathan_Archer" "knows"
+addent "Leonardo_da_Vinci"
+addrel "Jonathan_Archer" "Jonathan_Archer" "knows"
+report
+delrel "Boothby" "Ayala" "knows"
+addrel "Phillip_Boyce" "Ayala" "knows"
+report
+addent "Beverly_Crusher"
+addent "Phillip_Boyce"
+report
+addrel "The_Borg_Queen" "Data" "knows"
+report
+delrel "J_M_Colt" "Ayala" "knows"
+report
+addrel "The_Borg_Queen" "Airiam" "knows"
+addrel "Airiam" "Ayala" "knows"
+addent "Hugh_Culber"
+addrel "Airiam" "Jonathan_Archer" "knows"
+report
+delrel "The_Borg_Queen" "Data" "knows"
+report
+addrel "Chakotay" "Airiam" "knows"
+addent "Brunt"
+report
+addent "Michael_Burnham"
+addrel "Kimara_Cretak" "Jonathan_Archer" "knows"
+delrel "Jonathan_Archer" "Ayala" "knows"
+addrel "J_M_Colt" "Jonathan_Archer" "knows"
+delrel "Airiam" "Ayala" "knows"
+delrel "Ayala" "Airiam" "knows"
+addrel "Boothby" "Ayala" "knows"
+report
+end

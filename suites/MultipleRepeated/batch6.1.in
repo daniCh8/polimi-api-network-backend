@@ -1,0 +1,92 @@
+addent "Arthur_Dent"
+addent "Zaphod_Beeblebrox"
+addent "Marvin"
+addent "Ford_Prefect"
+addent "Slartibartfast"
+addent "Prostetnic_Vogon_Jeltz"
+addent "Trillian"
+addrel "Arthur_Dent" "Zaphod_Beeblebrox" "admires"
+report
+addrel "Arthur_Dent" "Slartibartfast" "admires"
+addrel "Zaphod_Beeblebrox" "Trillian" "admires"
+addrel "Zaphod_Beeblebrox" "Slartibartfast" "admires"
+report
+addrel "Marvin" "Arthur_Dent" "admires"
+addrel "Marvin" "Zaphod_Beeblebrox" "admires"
+addrel "Marvin" "Prostetnic_Vogon_Jeltz" "admires"
+addrel "Marvin" "Slartibartfast" "admires"
+report
+addrel "Ford_Prefect" "Slartibartfast" "admires"
+addrel "Slartibartfast" "Zaphod_Beeblebrox" "admires"
+addrel "Ford_Prefect" "Trillian" "admires"
+addrel "Ford_Prefect" "Zaphod_Beeblebrox" "admires"
+addrel "Slartibartfast" "Arthur_Dent" "admires"
+addrel "Slartibartfast" "Slartibartfast" "admires"
+report
+addrel "Prostetnic_Vogon_Jeltz" "Zaphod_Beeblebrox" "admires"
+addrel "Trillian" "Marvin" "admires"
+report
+delrel "Marvin" "Zaphod_Beeblebrox" "admires"
+delent "Prostetnic_Vogon_Jeltz"
+delrel "Slartibartfast" "Slartibartfast" "admires"
+report
+delrel "Marvin" "Slartibartfast" "admires"
+addent "Prostetnic_Vogon_Jeltz"
+addent "Roosta"
+addent "Slartibartfast"
+addent "The_Ruler_of_the_Universe"
+addent "The_Lajestic_Vantrashell_of_Lob"
+addent "Prak"
+addent "Hillman_Hunter"
+addrel "Prostetnic_Vogon_Jeltz" "Roosta" "knows"
+addrel "Prostetnic_Vogon_Jeltz" "Slartibartfast" "knows"
+report
+addrel "Prostetnic_Vogon_Jeltz" "The_Ruler_of_the_Universe" "knows"
+addrel "Prostetnic_Vogon_Jeltz" "Prak" "knows"
+addrel "Prostetnic_Vogon_Jeltz" "The_Lajestic_Vantrashell_of_Lob" "knows"
+report
+addrel "Prostetnic_Vogon_Jeltz" "Hillman_Hunter" "knows"
+addrel "Roosta" "Slartibartfast" "knows"
+report
+addrel "Roosta" "The_Ruler_of_the_Universe" "knows"
+addrel "Roosta" "The_Lajestic_Vantrashell_of_Lob" "knows"
+report
+addrel "Roosta" "Prak" "knows"
+report
+addrel "Roosta" "Hillman_Hunter" "knows"
+report
+addrel "Slartibartfast" "The_Ruler_of_the_Universe" "knows"
+addrel "Slartibartfast" "The_Lajestic_Vantrashell_of_Lob" "knows"
+addrel "Slartibartfast" "Prak" "knows"
+addrel "Slartibartfast" "Hillman_Hunter" "knows"
+report
+delent "Slartibartfast"
+addrel "The_Ruler_of_the_Universe" "The_Lajestic_Vantrashell_of_Lob" "knows"
+addrel "The_Ruler_of_the_Universe" "Prak" "knows"
+addrel "The_Ruler_of_the_Universe" "Hillman_Hunter" "knows"
+report
+addrel "The_Lajestic_Vantrashell_of_Lob" "Prak" "knows"
+addrel "The_Lajestic_Vantrashell_of_Lob" "Hillman_Hunter" "knows"
+report
+addrel "Prak" "Hillman_Hunter" "knows"
+delrel "The_Lajestic_Vantrashell_of_Lob" "Hillman_Hunter" "knows"
+delrel "Slartibartfast" "Hillman_Hunter" "knows"
+delent "The_Ruler_of_the_Universe"
+delrel "Roosta" "Prak" "knows"
+delrel "Prostetnic_Vogon_Jeltz" "The_Lajestic_Vantrashell_of_Lob" "knows"
+addrel "Marvin" "Arthur_Dent" "admires"
+delrel "Marvin" "Zaphod_Beeblebrox" "admires"
+addrel "Marvin" "Zaphod_Beeblebrox" "admires"
+report
+addrel "Slartibartfast" "Slartibartfast" "admires"
+addrel "Trillian" "Marvin" "admires"
+addrel "Roosta" "Slartibartfast" "knows"
+delrel "Slartibartfast" "Hillman_Hunter" "knows"
+addrel "The_Lajestic_Vantrashell_of_Lob" "Prak" "knows"
+delent "Zaphod_Beeblebrox"
+report
+addrel "Roosta" "The_Lajestic_Vantrashell_of_Lob" "knows"
+addrel "Prostetnic_Vogon_Jeltz" "Slartibartfast" "knows"
+addrel "The_Ruler_of_the_Universe" "Prak" "knows"
+report
+end

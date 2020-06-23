@@ -1,0 +1,58 @@
+addent "Elijah_Baley"
+addent "Bentley_Baley"
+addent "Jesse_Baley"
+addent "Gladia_Delmarre"
+addent "Han_Fastolfe"
+addent "Vasilia_Aliena"
+addent "R_Daneel_Olivaw"
+addent "R_Giskard_Reventlov"
+addent "Kelden_Amadiro"
+addent "Santirix_Gremionis"
+addent "Rikaine_Delmarre"
+report
+addent "Jothan_Leebig"
+addent "The_Chairman"
+addent "R_Jander_Panell"
+addent "Hannis_Gruer"
+addrel "Elijah_Baley" "Jesse_Baley" "loves"
+report
+addrel "Gladia_Delmarre" "Elijah_Baley" "loves"
+addrel "Rikaine_Delmarre" "Jothan_Leebig" "is_killed_by"
+addrel "Jesse_Baley" "Elijah_Baley" "loves"
+report
+addrel "R_Jander_Panell" "R_Giskard_Reventlov" "is_killed_by"
+addrel "Santirix_Gremionis" "Gladia_Delmarre" "loves"
+addrel "Gladia_Delmarre" "R_Jander_Panell" "loves"
+addrel "Elijah_Baley" "Kelden_Amadiro" "is_killed_by"
+addrel "Gladia_Delmarre" "Elijah_Baley" "is_killed_by"
+report
+addrel "Elijah_Baley" "Gladia_Delmarre" "loves"
+addrel "R_Jander_Panell" "Kelden_Amadiro" "is_killed_by"
+addrel "Vasilia_Aliena" "Han_Fastolfe" "loves"
+report
+addrel "Jesse_Baley" "Jothan_Leebig" "is_killed_by"
+addrel "Bentley_Baley" "Elijah_Baley" "loves"
+report
+addrel "Rikaine_Delmarre" "Gladia_Delmarre" "loves"
+addrel "R_Jander_Panell" "Kelden_Amadiro" "is_killed_by"
+addrel "Santirix_Gremionis" "Vasilia_Aliena" "loves"
+addrel "Vasilia_Aliena" "Kelden_Amadiro" "loves"
+addrel "Kelden_Amadiro" "R_Daneel_Olivaw" "loves"
+report
+addrel "Santirix_Gremionis" "Elijah_Baley" "is_killed_by"
+addrel "Han_Fastolfe" "Vasilia_Aliena" "loves"
+report
+addrel "The_Chairman" "Jothan_Leebig" "is_killed_by"
+addrel "Hannis_Gruer" "Gladia_Delmarre" "loves"
+addrel "R_Daneel_Olivaw" "Vasilia_Aliena" "is_killed_by"
+addrel "The_Chairman" "Gladia_Delmarre" "loves"
+addrel "R_Giskard_Reventlov" "Gladia_Delmarre" "loves"
+addrel "Vasilia_Aliena" "R_Giskard_Reventlov" "loves"
+report
+addrel "Vasilia_Aliena" "Jesse_Baley" "is_killed_by"
+addrel "Kelden_Amadiro" "Han_Fastolfe" "is_killed_by"
+addrel "Santirix_Gremionis" "R_Daneel_Olivaw" "loves"
+report
+addrel "The_Chairman" "Kelden_Amadiro" "is_killed_by"
+report
+end

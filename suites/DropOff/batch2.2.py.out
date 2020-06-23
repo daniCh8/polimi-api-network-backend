@@ -1,0 +1,58 @@
+none
+none
+none
+none
+none
+none
+none
+none
+"older_than" "Ayala" "Jonathan_Archer" "The_Borg_Queen" 1;
+"older_than" "Ayala" "Jonathan_Archer" "The_Borg_Queen" 1;
+"older_than" "Jonathan_Archer" 2;
+"older_than" "Ayala" 4;
+"older_than" "Ayala" "Jonathan_Archer" 4;
+"older_than" "Jonathan_Archer" 9;
+"older_than" "Ayala" "Jonathan_Archer" 9;
+"older_than" "Jonathan_Archer" 13;
+"older_than" "Jonathan_Archer" 13;
+"older_than" "Ayala" 9;
+"older_than" "Ayala" 8;
+"older_than" "Airiam" 3;
+"older_than" "Airiam" 3;
+"older_than" "RA_Bryce" "The_Borg_Queen" 1;
+"older_than" "RA_Bryce" "The_Borg_Queen" 1;
+"older_than" "RA_Bryce" "The_Borg_Queen" 1;
+"older_than" "RA_Bryce" "The_Borg_Queen" 1;
+"older_than" "RA_Bryce" "The_Borg_Queen" 1;
+"older_than" "RA_Bryce" "The_Borg_Queen" 1;
+"older_than" "RA_Bryce" "The_Borg_Queen" 1; "taller_than" "Jonathan_Archer" 1;
+"older_than" "RA_Bryce" "The_Borg_Queen" 1; "taller_than" "Airiam" "Jonathan_Archer" 1;
+"older_than" "RA_Bryce" "The_Borg_Queen" 1; "taller_than" "Airiam" "Jonathan_Archer" 1;
+"older_than" "RA_Bryce" "The_Borg_Queen" 1; "taller_than" "Airiam" "Ayala" 2;
+"older_than" "RA_Bryce" "The_Borg_Queen" 1; "taller_than" "Airiam" 3;
+"older_than" "RA_Bryce" "The_Borg_Queen" 1; "taller_than" "Airiam" 4;
+"older_than" "RA_Bryce" "The_Borg_Queen" 1; "taller_than" "Airiam" 4;
+"older_than" "RA_Bryce" "The_Borg_Queen" 1; "taller_than" "Airiam" 4;
+"older_than" "RA_Bryce" "The_Borg_Queen" 1; "taller_than" "Airiam" 10;
+"older_than" "RA_Bryce" "The_Borg_Queen" 1; "taller_than" "Airiam" 10;
+"older_than" "RA_Bryce" "The_Borg_Queen" 1; "taller_than" "Airiam" 12;
+"older_than" "RA_Bryce" "The_Borg_Queen" 1; "taller_than" "Airiam" 13;
+"older_than" "RA_Bryce" "The_Borg_Queen" 1; "taller_than" "Airiam" 13;
+"older_than" "RA_Bryce" "The_Borg_Queen" 1; "taller_than" "Airiam" 15;
+"older_than" "RA_Bryce" "The_Borg_Queen" 1; "taller_than" "Airiam" 18;
+"older_than" "RA_Bryce" "The_Borg_Queen" 1; "taller_than" "Airiam" 20;
+"older_than" "RA_Bryce" 1; "taller_than" "Airiam" 17;
+"older_than" "RA_Bryce" 1; "taller_than" "Airiam" 12;
+"older_than" "RA_Bryce" 1; "taller_than" "Airiam" 10;
+"older_than" "RA_Bryce" 1; "taller_than" "Airiam" 10;
+"taller_than" "Airiam" 10;
+"taller_than" "Airiam" 9;
+"taller_than" "Airiam" 8;
+"taller_than" "Airiam" 7;
+"taller_than" "Airiam" 7;
+"taller_than" "Airiam" 7;
+"taller_than" "Airiam" 6;
+"taller_than" "Airiam" 4;
+"taller_than" "Airiam" 2;
+"taller_than" "Airiam" 1;
+"taller_than" "Airiam" 1;
